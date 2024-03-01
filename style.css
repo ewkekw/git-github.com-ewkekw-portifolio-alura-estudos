@@ -10,7 +10,7 @@ body{
     box-sizing: border-box;
     background-color:black;
     color:white;
-    background-image: url(background.png);
+    background-image: url(./assets/background.png);
     background-size: contain;
 }
 
