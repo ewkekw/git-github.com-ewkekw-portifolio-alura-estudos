@@ -6,7 +6,7 @@
 }
 
 body{
-    height: 100vh;
+
     box-sizing: border-box;
     background-color:black;
     color:white;
@@ -15,7 +15,7 @@ body{
 }
 
 .apresentacao {
-    margin: 10% 19%;
+    padding: 8% 19%;
     display: flex;
     align-items: center;
     justify-content: space-between;
@@ -68,7 +68,7 @@ body{
     text-align: center;
     border-radius: 8px;
     font-size: 24px;
-    padding: 21.5px 0px;
+    padding: 16px 0px;
     display: flex;
     justify-content: center;
     gap: 16px;
@@ -76,6 +76,45 @@ body{
 .apresentacao__links__link:hover{
     background-color: #272727;
     border: 2px solid #98e9c5;
-    padding: 25px 15px;
+    padding: 20px 15px;
     cursor: pointer;
+}
+
+.rodape{
+    background-color: #0B8950;
+    color: #000000;
+    font-family: 'Montserrat', sans-serif;
+    font-size: 24px;
+    font-weight: 400;
+    text-align: center;
+    padding: 24px;
+}
+
+.cabecalho{
+}
+
+.cabecalho__menu{
+    display: flex;
+    align-items: center;
+    padding: 24px 19%;
+    gap: 10px;
+}
+
+.cabecalho__menu__logo{
+    font-family: 'Montserrat', sans-serif;
+    font-size: 24px;
+    color: #f6f6f6;
+    font-weight: 600;
+    display: flex;
+    align-items: center;
+    gap: 9px;
+}
+
+.cabecalho__menu__link{
+    display: flex;
+    font-family: 'Montserrat', sans-serif;
+    font-size: 24px;
+    color: #0B8950;
+    text-decoration: none;
+    flex-direction: row;
 }
