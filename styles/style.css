@@ -58,9 +58,13 @@ body{
     color:var(--cor-terciaria);
     background-image: url(/assets/background.png);
     background-size: contain;
+    flex-direction: column;
+    min-height: 100vh;
+    position: relative;
 }
 
 .apresentacao {
+    flex: 1;
     padding: 5% 19%;
     display: flex;
     align-items: center;
@@ -143,7 +147,6 @@ body{
     text-align: center;
     padding: 1%;
     width: 100%;
-    position: absolute;
 }
 
 @media (max-width: 1200px)
